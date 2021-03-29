@@ -1,15 +1,7 @@
-const firstName = (firstName) => {
-  return firstName.toUpperCase();
+exports.firstName = (firstName) => {
+	return firstName.toUpperCase();
 };
 
-const lastName = (lastName) => {
-  return lastName.toLowerCase();
-};
-
-exports.firstName = firstName;
-exports.lastName = lastName;
-
-module.exports = {
-  firstName,
-  lastName,
+exports.lastName = (lastName) => {
+	return lastName.toLowerCase();
 };
